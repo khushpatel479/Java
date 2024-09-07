@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.-webkit-scrollbar {
+  width: 10px;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+body
+{
+  min-height: 100vh;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.explore-menu-list img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    transition: 0.2s linear;
+}
+.explore-menu-list img:hover
+{
+    transform: scale(1.2);
+}
+.exploremenu
+{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.exploremenu .h1
+{
+    color: black;
+    font-weight: 500;
+}
+.exploremenutext
+{
+    max-width: 60%;
+    columns: #808080;
+}
+.explore-menu-list
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: scroll ;
+    
+}
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.explore-menu-list-item
+{
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s;
+    
+}
+
+.explore-menu-list p
+{
+    margin-top: 10px;
+    color: #747474;
+    font-size: max(1.4vw , 16px);
+    cursor: pointer;
+}
+.exploremenu hr
+{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+.explore-menu-list-item .active
+{
+    border: 4px solid tomato;
+    padding: 2px;
+    
+}
+.sr
+{
+    height: 30px;
+    width: 30px;
+}
+.cr
+{
+    height: 30px;
+    width: 30px;
+}
+.logo
+{
+    height: 100px;
+    width: 130px;
+}
+.navbar
+{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar-menu
+{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #49557e;
+    font-size: 18px;
+}
+.navbar-right
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navbar button
+{
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar button:hover
+{   
+    background-color: #fff4f2;
+
+}
+.active
+{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+.navbar li
+{
+    cursor: pointer;
+}
+.search-icon .dot
+{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 9px;
+    top: 45px;
+    right: 270px;
+}
+
+.app
+{
+  width: 80%;
+  margin: auto;
+
+}
+
+
+
+.Header
+{
+    height: 500px ;
+    width: 1000px;
+    margin: 35px ;
+    background: url('images/img1.jpg') no-repeat;
+    background-size: cover;
+    zoom: 20px;
+    position: relative;
+    border-radius: 20px;
+    
+     background-position: center; 
+    
+}
+.Header-contents
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadin 3s linear;
+    
+}
+.Header-contents h2
+{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw , 22px);
+
+}
+.Header-contents p{
+    color: wheat;
+    font-size: 1vw;
+
+}
+.Header-contents button
+{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw,13px);
+    border-radius: 50px;
+
+}
+
+
+/*footer*/
+
+/* Footer Styles */
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact {
+    margin-top: 10px;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+    font-size: 14px;
+}
