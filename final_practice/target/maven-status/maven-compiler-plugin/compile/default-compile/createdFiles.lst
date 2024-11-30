@@ -1,0 +1,9 @@
+entity\Course.class
+com\mycompany\final_practice\JakartaRestConfiguration.class
+ejb\mth.class
+com\mycompany\final_practice\resources\JakartaEE8Resource.class
+entity\Subject.class
+ejb\mthLocal.class
+entity\StudentSubject.class
+clients\calls.class
+entity\StudentMaster.class
