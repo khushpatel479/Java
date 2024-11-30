@@ -1,0 +1,10 @@
+com\mycompany\exam_app2\JakartaRestConfiguration.class
+entity\Category.class
+entity\Product.class
+client\prods.class
+ejb\methodsLocal.class
+entity\Lg.class
+ejb\methods.class
+com\mycompany\exam_app2\resources\JakartaEE8Resource.class
+client\cli.class
+client\cli2.class
